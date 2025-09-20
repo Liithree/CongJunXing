@@ -105,6 +105,7 @@ public class Enemy implements Runnable,Attackable{
     }
 
     //受伤
+    @Override
     public void beAttacked(int und){
         this.blood -= und;
     }
